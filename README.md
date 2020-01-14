@@ -8,10 +8,10 @@ For each pair of nodes, we check if they belong in the same community or not. We
 - Not checking duplicates: `0.5 * (N^2 - N)`
 
 # Todos
-[x] Create test case with small `n`
-[x] Create code for test case
-[x] Run code against first three datasets
-[ ] Run code against last two datasets
+- [x] Create test case with small `n`
+- [x] Create code for test case
+- [x] Run code against first three datasets
+- [ ] Run code against last two datasets
 
 # Document
 Add todos for LaTeX document
