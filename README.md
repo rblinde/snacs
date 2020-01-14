@@ -7,16 +7,16 @@ For each pair of nodes, we check if they belong in the same community or not. We
 - Not checking against itself: `N^2 - N`
 - Not checking duplicates: `0.5 * (N^2 - N)`
 
-# Observations
+## Observations
 - When accuracy is low, one giant component usually exists with other nodes having community size of one
 
-# Todos
+## Todos
 - [x] Create test case with small `n`
 - [x] Create code for test case
 - [x] Run code against first three datasets
 - [ ] Run code against last two datasets
 
-# Document
+## Document
 - [ ] Rewrite Section 2.2
 - [ ] Add table with number of found communities to Section 6.3
 - [ ] Try to check why the results are so low in some cases
@@ -25,7 +25,7 @@ For each pair of nodes, we check if they belong in the same community or not. We
 - [ ] Investigate runtime of BC algorithm
 - [ ] Check if document is still valid after changes
 
-# Results
+## Results
 ```
 Accuracy of 'gm' for 'karate': 0.5811
 Accuracy of 'gn' for 'karate': 0.5989
