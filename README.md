@@ -17,7 +17,7 @@ For each pair of nodes, we check if they belong in the same community or not. We
 - [ ] Run code against last two datasets
 
 ## Document
-- [ ] Rewrite Section 2.2
+- [x] Rewrite Section 2.2
 - [ ] Add table with number of found communities to Section 6.3
 - [ ] Try to check why the results are so low in some cases
 - [ ] Update Table 2 with new values
