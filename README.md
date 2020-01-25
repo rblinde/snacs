@@ -36,4 +36,7 @@ Accuracy of 'lpa' for 'football': 0.9548
 Accuracy of 'gm' for 'email': 0.7683
 Accuracy of 'gn' for 'email': 0.0903
 Accuracy of 'lpa' for 'email': 0.1380
+Accuracy of 'gm' for 'corporate-small': 0.5619
+Accuracy of 'gn' for 'corporate-small': 0.1909
+Accuracy of 'lpa' for 'corporate-small': 0.5745
 ```

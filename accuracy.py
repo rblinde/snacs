@@ -3,7 +3,7 @@
 def parse_result(path):
     """ Return communties as list """
     with open(path, "r") as file:
-        communities = [int(line.split()[1]) for line in file.readlines()]
+        communities = [str(line.split()[1]) for line in file.readlines()]
         return communities
 
 
@@ -47,8 +47,9 @@ def main():
         "karate": 34,
         "football": 115,
         "email": 1005,
+        "corporate-small": 1689,
     }
-    datasets = ["karate", "football", "email"]
+    datasets = ["karate", "football", "email", "corporate-small"]
 
     for dataset in datasets:
         calculate(dataset, "gm", sizes[dataset])
