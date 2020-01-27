@@ -39,6 +39,7 @@ def calculate(dataset, algorithm, n):
             iteration(i)
 
     avg_acc = round(sum(accuracies) / len(accuracies), 4)
+    print(f"Accuracy of '{algorithm}' for '{dataset}': {avg_acc:.4f}")
     print(f"Accuracy of '{algorithm}' for '{dataset}': {avg_acc:.4f}", file=open("result.txt", "a"))
 
 
@@ -48,8 +49,9 @@ def main():
         "football": 115,
         "email": 1005,
         "corporate-small": 1689,
+        "corporate": 328574,
     }
-    datasets = ["karate", "football", "email", "corporate-small"]
+    datasets = ["karate", "football", "email", "corporate-small", "corporate"]
 
     for dataset in datasets:
         calculate(dataset, "gm", sizes[dataset])
