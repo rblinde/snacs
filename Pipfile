@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 networkx = "*"
 matplotlib = "*"
+pandas = "*"
+seaborn = "*"
 
 [dev-packages]
 pylint = "*"
