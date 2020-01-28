@@ -14,15 +14,15 @@ For each pair of nodes, we check if they belong in the same community or not. We
 - [x] Create test case with small `n`
 - [x] Create code for test case
 - [x] Run code against first three datasets
-- [ ] Run code against last two datasets
+- [x] Run code against last two datasets
 
 ## Document
 - [x] Rewrite Section 2.2
-- [ ] Add table with number of found communities to Section 6.3
+- [x] Add table with number of found communities to Section 6.3
 - [ ] Try to check why the results are so low in some cases
-- [ ] Update Table 2 with new values
+- [x] Update Table 2 with new values
 - [ ] Investigate observations
-- [ ] Investigate runtime of BC algorithm
+- [x] Investigate runtime of BC algorithm
 - [ ] Check if document is still valid after changes
 
 ## Results
@@ -39,4 +39,7 @@ Accuracy of 'lpa' for 'email': 0.1380
 Accuracy of 'gm' for 'corporate-small': 0.5619
 Accuracy of 'gn' for 'corporate-small': 0.1909
 Accuracy of 'lpa' for 'corporate-small': 0.5745
+Accuracy of 'gm' for 'corporate': 0.91
+Accuracy of 'gn' for 'corporate': N/A
+Accuracy of 'lpa' for 'corporate': 0.94
 ```
