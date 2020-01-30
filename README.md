@@ -25,11 +25,11 @@ For each pair of nodes, we check if they belong in the same community or not. We
 
 - [x] Rewrite Section 2.2
 - [x] Add table with number of found communities to Section 6.3
-- [ ] Try to check why the results are so low in some cases
+- [x] Try to check why the results are so low in some cases
 - [x] Update Table 2 with new values
-- [ ] Investigate observations
+- [x] Investigate observations
 - [x] Investigate runtime of BC algorithm
-- [ ] Check if document is still valid after changes
+- [x] Check if document is still valid after changes
 
 ## Results
 
